@@ -11,7 +11,12 @@ along with wire provider sets and other stuff.
 
 
 
-See documentations
+See documentations:
 
 https://pkg.go.dev/github.com/google/wire
+
 https://pkg.go.dev/go.uber.org/fx
+
+Proposal:
+
+https://docs.google.com/document/d/15KVfsiV6AETLSbNIeTLS4bmIz0BOp9krMrVS66Vg6oc/edit?usp=sharing
