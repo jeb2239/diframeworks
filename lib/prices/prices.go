@@ -12,7 +12,6 @@ type PriceRecord struct {
 	TimeStamp time.Time
 }
 
-
 type IStore interface {
 	GetPrices() []PriceRecord
 }
@@ -35,6 +34,11 @@ func (s *Store) GetPrices() []PriceRecord {
 		{
 			Price:     22,
 			Name:      "IBM",
+			TimeStamp: s.timeProvider.GetTime(),
+		},
+		{
+			Price:     33,
+			Name:      "GOOG",
 			TimeStamp: s.timeProvider.GetTime(),
 		},
 	}
