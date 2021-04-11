@@ -8,3 +8,10 @@ The uber fx framework uses reflection to initialize dependencies where as wire u
 
 Ideally would like to add some examples using fx lifecycle and advanced features
 along with wire provider sets and other stuff.
+
+
+
+See documentations
+
+https://pkg.go.dev/github.com/google/wire
+https://pkg.go.dev/go.uber.org/fx
